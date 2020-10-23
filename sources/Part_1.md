@@ -1,5 +1,5 @@
 # Day 1 of gmx programming formation
-## I. Vocabulary and word meaning:
+# A. Vocabulary and word meaning:
 	
 1. Question google, the people around you and obviously you: What is a programming and scripting language and why are there so many of them?
 2. Read [this](https://learnxinyminutes.com/docs/c/).
@@ -7,7 +7,7 @@
 4. Now, you’ve faced a programming way to “quickly understand” a language, read [this](https://developerinsider.co/c-programming-language-cheat-sheet/).
 
 
-## II. Terminal:
+# B. Terminal:
 
 1. Biggest notion to understand here, the terminal and everything that you can do with it. Read [this](https://gist.github.com/poopsplat/7195274)
 2. Now, that you know how to use the terminal, you have to ONLY use it while manipulating files.
