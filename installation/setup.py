@@ -28,8 +28,9 @@ def add_alias():
 
 def create_workspace():
     os.system("cd ~/ && mkdir -p gmx_formation/part1 && mkdir -p gmx_formation/part2")
-    os.system("cp .gmx_formation/sources/Part_1.md gmx_formation/part1")
-    os.system("cp .gmx_formation/sources/Part_2.md gmx_formation/part2")
+    os.system(
+        "cd ~/ && cp .gmx_formation/sources/Part_1.md gmx_formation/part1 && cp .gmx_formation/sources/Part_2.md gmx_formation/part2"
+    )
 
 
 def setup():
