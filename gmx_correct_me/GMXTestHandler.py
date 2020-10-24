@@ -7,7 +7,7 @@ from ArgParser import ArgParser
 
 class GMXTestHandler(ArgParser):
     results: list = []
-    test_dir: str = os.path.abspath(os.path.join("gmx_correct_me", "tests"))
+    test_dir: str = os.path.abspath(os.path.join(os.path.dirname(__file__), "tests"))
     given_dir: str
 
     FUNCTIONS = {
